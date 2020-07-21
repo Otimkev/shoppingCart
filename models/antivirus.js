@@ -2,8 +2,8 @@ const software = require("./software");
 
 class antivirus extends software() {
 
-	constructor(category) {
-		super();
+	constructor(category,operatingSystem, price, version) {
+		super(operatingSystem, price, version);
 		this.category = category;
 	}
 }

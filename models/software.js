@@ -7,7 +7,7 @@ class software {
 	}
 
 	getRam() {
-		return this.#version;
+		return this.version;
 	}
 }
 module.exports = software;
