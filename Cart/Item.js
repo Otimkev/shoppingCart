@@ -30,7 +30,7 @@ class Item {
  }
 
  totalPrice(){
-  return (this.price * this.quantity)
+  return (this.getPrice() * this.getQuantity())
  }
 
  toString(){
