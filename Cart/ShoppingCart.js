@@ -4,7 +4,8 @@ class ShoppingCart {
     }
 	
 	addItems(someItem) {
-		return this.items.push(someItem);
+			return this.items.push(someItem);
+	
 	}
 
 	removeItem(someItem) {
@@ -15,6 +16,7 @@ class ShoppingCart {
 	showAllItems() {
 		return this.items;
 	}
+
 
 	printItems(){
 		let string = "";

@@ -5,8 +5,10 @@ class software {
 		this.price = price;
 		this.version = version;
 	}
-
-	getRam() {
+	getCost(){
+		return this.price + " Calling from abstract class!"
+	}
+	getCosts() {
 		return this.version;
 	}
 }
