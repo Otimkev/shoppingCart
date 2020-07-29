@@ -10,7 +10,7 @@ class Item {
  }
 
  setQuantity(quantity){
-  this.quantity =quantity;
+  this.quantity = quantity;
  }
 
  getPrice(){
@@ -30,11 +30,11 @@ class Item {
  }
 
  totalPrice(){
-  return (this.price * this.quantity)
+  return (this.getPrice() * this.getQuantity())
  }
 
  toString(){
-  return `${this.getQuantity()} ${this.getPrice()} ${this.getDescription()} `
+  return `${this.getQuantity()} ${this.getPrice()} ${this.getDescription()}`
  }
 }
 
