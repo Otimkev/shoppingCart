@@ -7,8 +7,5 @@ class laptopBag {
 		this.price = price;
 	}
 
-	getRam() {
-		return this.#color;
-	}
 }
 module.exports = laptopBag;

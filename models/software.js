@@ -5,11 +5,5 @@ class software {
 		this.price = price;
 		this.version = version;
 	}
-	getCost(){
-		return this.price + " Calling from abstract class!"
-	}
-	getCosts() {
-		return this.version;
-	}
 }
 module.exports = software;

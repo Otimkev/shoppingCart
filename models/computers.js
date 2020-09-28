@@ -7,10 +7,6 @@ class computers {
 		this.color = color;
 		this.price = price;
 	}
-
-	getRam() {
-		return this.ram;
-	}
 }
 
 module.exports = computers;
